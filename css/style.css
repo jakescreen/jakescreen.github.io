@@ -1,0 +1,36 @@
+body, html{
+    font-family: main-font;
+    height: 100%;
+    width: 100%;
+    background: rgb(238,174,202);
+  background: linear-gradient(155deg, rgba(238,174,202,1) 0%, rgba(148,215,233,1) 100%);
+  
+  }
+#content{
+    margin: 0 auto;
+    
+    text-align: center;
+}
+#about{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    max-width: 30%;
+}
+#nameform{
+    margin-left: auto;
+    margin-right: auto;
+    
+    max-width: 40%;
+}
+ul, li{
+    margin-left: 0%;
+    
+}
+@font-face {
+    font-family: main-font;
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
+#fname{
+    max-width: 15%;
+}
